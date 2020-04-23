@@ -1,0 +1,13 @@
+@import "abstracts/colors";
+
+.full-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.nf-title { color: $white; font-weight: bold; }
+.total-width { width: 100%; }
+.cl-primary { background-color: $cl-primary }
+.no-float { margin: 0 auto; display: block }

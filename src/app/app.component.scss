@@ -1,0 +1,30 @@
+@import "abstracts/class";
+
+#browse {
+  .trailer {
+    position: relative;
+    height: 615px;
+    background-color: #131313;
+
+    iframe {
+      width:100%;
+      height: 615px;
+    }
+
+    .description {
+      position: absolute;
+      bottom: 70px;
+      left: 10px;
+      color: $white;
+    }
+
+  }
+
+  .catalog {
+    padding: 40px 20px;
+    background-color: #131313 !important;
+    .col-md-3 { padding: 0; }
+  }
+}
+
+

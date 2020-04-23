@@ -1,0 +1,13 @@
+<div class="card" (click)="navigation()">
+  <div class="full-background total-width cl-primary">
+    <div class="card-body">
+      <h5>{{ movie?.title }}</h5>
+      <p> {{ movie?.overview | slice:0:40 }} </p>
+      <span>
+        <i class="fab fa-imdb"></i>
+        {{ (movie)?.vote_average }}
+      </span>
+    </div>
+  </div>
+  <img [src]="'https://image.tmdb.org/t/p/w500'+this.movie.backdrop_path" class="card-img-top" alt="flapp">
+</div>
